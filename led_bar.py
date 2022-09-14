@@ -1,7 +1,6 @@
 from machine import Pin
-import uasyncio
 from neopixel import NeoPixel
-from time import sleep, sleep_ms
+from time import sleep
 
 class LedStrip:
     def __init__(self,
